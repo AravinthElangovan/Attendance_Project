@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+  >
+
+
+<TableLayout android:layout_width = "fill_parent"
+    android:id="@+id/tableLayout1" android:layout_height="fill_parent">
+    <TableRow>
+        <TextView android:text="@string/Name" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"></TextView>
+        <TextView android:text="@string/Course" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"></TextView>
+    </TableRow>
+</TableLayout>
+<TextView android:text="@string/Info" 
+    		android:id="@+id/tvSQLinfo"
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent">
+    
+</TextView>
+
+<ListView
+    android:id="@+id/listview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" /> 
+</LinearLayout>
